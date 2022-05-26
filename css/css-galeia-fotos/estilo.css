@@ -1,0 +1,29 @@
+.img {
+  width: 210px;
+  height: 210px;
+}
+
+#card {
+  position: absolute;
+  top: 1050px;
+  right: 300px;
+}
+
+
+.gallery_product {
+  margin-bottom: -500px;
+}
+
+.gallery_product .title {
+  color: #fff;
+  position: relative;
+  bottom: 580px;
+  left: 500px;
+  width: 18rem;
+  background-color: rgba(68, 65, 65, 0.774);
+  padding: 2%;
+}
+
+.gallery_product .title button {
+  display: block;
+}
