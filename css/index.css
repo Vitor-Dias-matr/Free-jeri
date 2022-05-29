@@ -1,0 +1,21 @@
+.fontCarrocel {
+    top: 50%;
+    text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+}
+
+.tituloSobreNos {
+    color: yellow;
+}
+
+.botaoSaibaMais {
+    margin: 5% 0% 0% 0%;
+}
+
+.servicos {
+    padding-top: 8%;
+}
+
+
+.servicosFooter {
+    border: 0px;
+}
