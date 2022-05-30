@@ -24,16 +24,14 @@
   padding: 2%;
 }
 
-.imagemSobre {
-  background-image: url(EuAmoJeri.webp);
-  background-size: cover;
-  background-position: top center;
-  height: 65%;
-  width: 65%;
-  position: absolute;
-  /* width: 330%; height: 100% */
-}
 
+
+.gallery_product .title button {
+  display: block;
+}
+/* 
+@media(min-width:1240px) {
+ 
 .title2 {
   color: #FFF;
   background-color: rgba(0, 0, 0, 0.705);
@@ -47,19 +45,65 @@
   transform: translate(-50%, -50%);
   transition: .3s;
 }
+} */
 
-.gallery_product .title button {
-  display: block;
+@media(min-width:1240px) {
+ 
+  
+.imagemSobre {
+  background-image: url(EuAmoJeri.webp);
+  background-size: cover;
+  background-position: top center;
+  height: 70%;
+  width: 82%;
+  position: absolute;
+  /* width: 330%; height: 100% */
 }
 
-@media(min-width:1440px) {
-  .carrocelButton {
-    width: 5%;
+  .title2 {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 20px;
+    width: 70%;
+    height: 80%;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
   }
+  }
+  
+
+  @media(min-width:1440px) {
+ 
+    
+.imagemSobre {
+  background-image: url(EuAmoJeri.webp);
+  background-size: cover;
+  background-position: top center;
+  height: 65%;
+  width: 65%;
+  position: absolute;
+  /* width: 330%; height: 100% */
 }
 
-
-
+    .title2 {
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.705);
+      padding: 20px;
+      width: 30%;
+      height: 80%;
+      border-radius: 5px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: .3s;
+    }
+    }
+    
 /* ----------------------- */
 
 #imagemSobre {
